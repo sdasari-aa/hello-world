@@ -1,9 +1,6 @@
 pipeline {
   agent {
-    node {
-      label 'jdk9'
-    }
-    
+    label 'jdk9'
   }
   stages {
     stage('Get Kernel') {
