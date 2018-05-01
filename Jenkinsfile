@@ -13,4 +13,7 @@ pipeline {
       }
     }
   }
+  environment {
+    MY_NAME = 'Srini'
+  }
 }
